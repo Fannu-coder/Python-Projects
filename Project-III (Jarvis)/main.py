@@ -39,7 +39,7 @@ def speak(text):
     os.remove("temp.mp3") 
 
 def aiProcess(command):
-    client = OpenAI(api_key="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",
+    client = OpenAI(api_key="<Your Api Key Here>",
     )
 
     completion = client.chat.completions.create(
